@@ -15,7 +15,9 @@ public class bt1 {
 
         int[] arr = new int[n];
 
+        // Khai báo biến max để lưu giá trị lớn nhất, khởi tạo với giá trị nhỏ nhất có thể có
         int max = Integer.MIN_VALUE;
+        // Khai báo biến min để lưu giá trị nhỏ nhất, khởi tạo với giá trị lớn nhất có thể có
         int min = Integer.MAX_VALUE;
 
         for(int i = 0; i < n; i++){

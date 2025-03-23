@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class bt2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập kích thước mảng: ");
+        System.out.println("Nhập kích thước của mảng: ");
         int  n = sc.nextInt();
 
         if ( n <= 0) {
-            System.out.println("Kích thước không hợp lệ.Nhập lại");
+            System.out.println("Kích thước không hợp lệ");
             return;
         }
 
