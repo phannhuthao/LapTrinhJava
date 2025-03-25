@@ -27,7 +27,6 @@ public class bt7S {
             this.supervisorName = supervisorName;
         }
 
-        @Override
         public String getDetails() {
             return super.getDetails() + ", Đề tài: " + researchTopic + ", GVHD: " + supervisorName;
         }
