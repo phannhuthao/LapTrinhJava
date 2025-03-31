@@ -64,6 +64,10 @@ public class EmployeeManagement {
     }
 
     public static void showInfo() {
+        if (employeeList.isEmpty()) {
+            System.out.println("Danh sách rỗng");
+        }
+
         for (Employee e : employeeList) {
             e.displayData();
         }
